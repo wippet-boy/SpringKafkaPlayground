@@ -1,0 +1,31 @@
+plugins {
+    id 'org.springframework.boot' version '2.5.13'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group 'com.jrg'
+version '1.0-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+    implementation 'org.springframework.integration:spring-integration-core'
+
+    implementation 'org.springframework.integration:spring-integration-file'
+
+    implementation 'org.springframework.boot:spring-boot-starter-integration'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.integration:spring-integration-test'
+}
+
+test {
+    useJUnitPlatform()
+}
