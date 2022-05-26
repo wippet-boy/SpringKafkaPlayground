@@ -1,4 +1,4 @@
-package com.jrg.spring.integration;
+package com.jrg.spring.integration.file;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
