@@ -7,3 +7,4 @@ Bunch of code examples :)
 * https://www.baeldung.com/spring-integration-java-dsl
 * https://examples.javacodegeeks.com/spring-integration-kafka-tutorial/
 * https://www.baeldung.com/spring-cloud-configuration
+* https://developer.confluent.io/get-started/spring-boot/
