@@ -1,4 +1,7 @@
 # SpringKafkaPlayground
+
+REPO : https://github.com/wippet-boy/SpringKafkaPlayground
+
 Bunch of code examples :)
 
 
